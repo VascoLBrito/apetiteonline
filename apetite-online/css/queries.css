@@ -1,0 +1,477 @@
+@media (max-width: 1480px) {
+  .block-text {
+    width: 50rem;
+  }
+  .block-text h2 {
+    width: 100%;
+    text-align: left;
+  }
+}
+@media (max-width: 1240px) {
+  .features-wrapper {
+    max-width: 130rem;
+  }
+
+  .feature h2 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1150px) {
+  .block-text {
+    width: 40rem;
+  }
+  .brevemente {
+    top: 60%;
+    left: 40%;
+    width: 60rem;
+  }
+}
+@media (max-width: 1030px) {
+  .feature h2 {
+    width: 100%;
+  }
+  .feature p {
+    font-size: 1.4rem;
+  }
+
+  .contact {
+    padding-inline: 2rem;
+  }
+
+  .contact h1 {
+    font-size: 4.4rem;
+  }
+  .contact p {
+    font-size: 1.8rem;
+  }
+  .brevemente {
+    top: 70%;
+    font-size: 2.2qrem;
+  }
+}
+@media (max-width: 940px) {
+  .section-header {
+    top: -2%;
+
+    width: max-content;
+  }
+  .nav-list {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav-link {
+    width: 100%;
+    font-size: 1.2rem;
+  }
+
+  .hero {
+    padding: 4.8rem;
+
+    padding-inline: 8rem 2.8rem;
+  }
+  .hero-info h1 {
+    font-size: 5.5rem;
+  }
+  .hero-info h4 {
+    font-size: 1.6rem;
+    width: 80%;
+  }
+  .serviços {
+    gap: 1.4em;
+  }
+
+  .serviço-box ion-icon {
+    width: 1.8rem;
+    height: 1.8rem;
+  }
+
+  .feature {
+    width: 100%;
+  }
+  .features {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  .block-text {
+    width: 100%;
+  }
+
+  .brevemente {
+    top: 80%;
+    left: 53%;
+  }
+}
+@media (max-width: 850px) {
+  .section-intro {
+    padding-block-start: 20rem;
+  }
+
+  .contact-wrapper {
+    height: fit-content;
+    padding-block: 4rem;
+  }
+  .brevemente {
+    font-size: 2rem;
+    top: 80%;
+    left: 40%;
+  }
+}
+@media (max-width: 730px) {
+  .brevemente {
+    top: 67%;
+    left: 35%;
+  }
+}
+@media (max-width: 620px) {
+  .section-header {
+    top: -2%;
+    /* width: 16rem; */
+  }
+
+  .nav-link {
+    font-size: 1.2rem;
+    border-bottom: 1px solid var(--detail);
+  }
+
+  .hero {
+    padding-inline-start: 3rem;
+    background-color: transparent;
+    background-image: linear-gradient(
+      45deg,
+      var(--main-color),
+      var(--main-color-shade)
+    );
+  }
+
+  .hero-info h1 {
+    font-size: 4rem;
+  }
+  .hero-info h4 {
+    font-size: 1.4rem;
+    width: 80%;
+  }
+
+  .section-intro {
+    padding-block: 9.9rem;
+  }
+
+  .section-features {
+    padding-block: 5.7rem;
+  }
+  .features {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .feature {
+    width: 100%;
+  }
+
+  .svg3,
+  .svg2 {
+    width: 40rem;
+  }
+
+  .head h1 {
+    font-size: 4.4rem;
+  }
+  .head h4 {
+    font-size: 1.4rem;
+  }
+
+  .block-text h2 {
+    font-size: 2.4rem;
+  }
+
+  .features-wrapper {
+    gap: 2rem;
+  }
+  .brevemente {
+    top: 112%;
+    left: 55%;
+  }
+
+  .feature h2 {
+    font-size: 2rem;
+  }
+  .feature p {
+    font-size: 1.4rem;
+  }
+  .footer p {
+    font-size: 1.4rem;
+  }
+  .footer a {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 515px) {
+  .section-header {
+    top: -2%;
+    width: 32rem;
+  }
+
+  .nav-link {
+    padding-inline: 1.8rem;
+  }
+  .bg-hero {
+    display: none;
+  }
+  .section-hero {
+    grid-template-columns: 1fr;
+  }
+  .hero {
+    background-image: url(../img/hero.jpeg);
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+    width: 100%;
+    margin-inline: auto;
+    padding-inline: 2rem;
+    text-align: center;
+  }
+  .hero::before {
+    position: absolute;
+    inset: 0;
+    content: "";
+
+    z-index: -1;
+    background-color: transparent;
+    background-image: linear-gradient(
+      45deg,
+      var(--main-color),
+      var(--main-color-shade)
+    );
+  }
+
+  .hero-info {
+    justify-content: center;
+    align-items: center;
+  }
+  .hero-info h1 {
+    font-size: 4.4rem;
+    width: 85%;
+    text-align: center;
+    align-self: center;
+  }
+  .hero-info p {
+    font-size: 1.6rem;
+    width: 80%;
+  }
+
+  .hero-info button {
+    border: 1px solid #fff;
+    padding: 1rem 2.2rem;
+    margin-top: 2rem;
+  }
+
+  .intro-wrapper {
+    padding-inline: 2rem;
+  }
+  .block-text {
+    padding: 2rem;
+  }
+  .block-text p {
+    font-size: 1.4rem;
+  }
+
+  .section-wrapper {
+    padding-inline: 2rem;
+  }
+  .section-features {
+    padding-block: 3.3rem;
+  }
+
+  .opacity {
+    opacity: 0;
+    display: none;
+    transition: all 500ms;
+  }
+  .feature:hover .opacity {
+    display: block;
+    opacity: 1;
+  }
+  .feature:active .opacity {
+    display: block;
+    opacity: 1;
+  }
+  .feature:last-child:hover,
+  .feature:last-child:active {
+    pointer-events: none;
+    opacity: 0;
+  }
+
+  .brevemente {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    rotate: 0deg;
+    inset: 0;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 50%;
+
+    font-size: 2.5rem;
+    padding-inline: 1rem;
+
+    scale: 0.8;
+    border-radius: 15px;
+    transform: translateY(-50%);
+  }
+
+  .contact h1 {
+    font-size: 3rem;
+  }
+  .contact p {
+    font-size: 1.2rem;
+  }
+  .contact button {
+    font-size: 1.4rem;
+    border: 1px solid white;
+    padding: 1.2rem 2rem;
+    margin-top: 2rem;
+  }
+  .footer p {
+    font-size: 1.2rem;
+  }
+  .footer a {
+    font-size: 1.1rem;
+  }
+}
+@media (max-width: 365px) {
+  .section-header {
+    top: -2%;
+    width: 12rem;
+  }
+
+  .nav-list {
+    flex-direction: column;
+  }
+  .nav-link {
+    padding: 1.2rem 2rem;
+    font-size: 1rem;
+  }
+
+  .hero-info h1 {
+    font-size: 3.8rem;
+    width: 85%;
+    text-align: center;
+    align-self: center;
+  }
+  .hero-info h4 {
+    font-size: 1.4rem;
+    text-align: center;
+    align-self: center;
+  }
+
+  .hero-info button {
+    scale: 0.9;
+  }
+
+  .serviços {
+    flex-wrap: wrap;
+    width: 25rem;
+    justify-content: center;
+  }
+
+  .feature h2 {
+    font-size: 1.6rem;
+  }
+  .opacity {
+    font-size: 1.4rem;
+  }
+  .features ion-icon {
+    width: 3.2rem;
+    height: 3.2rem;
+  }
+
+  .contact h1 {
+    font-size: 2.2rem;
+  }
+  .contact p {
+    font-size: 1.1rem;
+  }
+
+  .section-features {
+    padding-inline: 2rem;
+  }
+}
+@media (max-width: 300px) {
+  .bg-hero {
+    /* display: none; */
+  }
+  .hero {
+    background-image: url(../img/hero.jpeg);
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+    width: fit-content;
+    margin-inline: auto;
+    padding-inline: 2rem;
+  }
+  .hero::before {
+    position: absolute;
+    inset: 0;
+    content: "";
+
+    z-index: -1;
+    background-color: transparent;
+    background-image: linear-gradient(
+      45deg,
+      var(--main-color),
+      var(--main-color-shade)
+    );
+  }
+
+  .hero-info {
+    align-items: center;
+  }
+  .hero-info h1 {
+    font-size: 3.2rem;
+    text-align: center;
+  }
+  .hero-info p {
+    font-size: 1.4rem;
+    width: 100%;
+    text-align: center;
+  }
+
+  .hero-info button {
+    scale: 0.9;
+    align-self: center;
+  }
+  .section-intro {
+    padding-block: 8rem;
+  }
+  .intro-wrapper {
+    padding-inline: 1rem;
+  }
+  .intro {
+    scale: 0.9;
+  }
+
+  .head {
+    margin-inline-start: 2rem;
+    margin-block-end: -2rem;
+  }
+  .head h1 {
+    font-size: 3rem;
+  }
+  .head h4 {
+    font-size: 1rem;
+  }
+  .contact h1 {
+    font-size: 1.8rem;
+  }
+  .contact p {
+    font-size: 0.8rem;
+  }
+
+  .footer {
+    padding-inline: 2rem;
+  }
+}

@@ -1,0 +1,42 @@
+/* contact queries */
+
+@media (max-width: 850px) {
+  .section-header {
+    top: 5%;
+    left: 0%;
+
+    width: 100%;
+  }
+  .container {
+    padding-inline: 5rem;
+  }
+
+  form h3 {
+    font-size: 2.3rem;
+  }
+
+  *::placeholder {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 520px) {
+  .nav-link {
+    font-size: 1rem;
+  }
+
+  .container {
+    padding-inline: 3rem;
+  }
+  form {
+    margin-top: 2rem;
+  }
+  form input,
+  form textarea {
+    padding: 1.6rem;
+  }
+}
+@media (max-width: 320px) {
+  form {
+    padding: 1.4rem;
+  }
+}
