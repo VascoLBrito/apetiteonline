@@ -224,7 +224,7 @@
     grid-template-columns: 1fr;
   }
   .hero {
-    background-image: url(../img/hero.jpeg);
+    background-image: url(../img/hero.webp);
     background-position: center;
     background-size: cover;
     z-index: 1;
